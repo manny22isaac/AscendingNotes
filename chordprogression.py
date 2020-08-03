@@ -37,3 +37,11 @@ class CircleFifths:
 
 a = CircleFifths(scale, rootkey)
 a.shift(rootkey)
+
+
+def main():
+    a = CircleFifths(scale, rootkey)
+    a.shift(rootkey)
+    #a.modes(scale)
+
+main()
