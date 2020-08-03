@@ -13,9 +13,9 @@ Currently in process of implementing the function modes() to CircleFifths.
 Modes() will display which notes are in the scale/mode.
 
 ### Example
-1. select a root key:
+1. Select a root key:
 'E'
-2. the mode option isn't available yet so just hit enter and skip
+2. The mode option isn't available yet so just hit enter and skip
 3. The program will return all the notes in ascending order towards the higher octave which will look like this:
 
     'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'C', 'C#', 'D', 'D# 
