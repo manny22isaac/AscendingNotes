@@ -5,22 +5,40 @@ This simple program takes the root key of a 12 note scale and shifts the element
 ### Motivation 
 
 The purpose of this program is to make a circle of fifths with different scales/modes in ascending order. 
-Eventually, the project will be meant to generate complex melodies from python scripts to puredata.
-This program is geared towards both hobbyist musicans and programmers. 
+Eventually, the project will be meant to generate complex melodies from python scripts to puredata or any device that can recieve midi. 
+This program is geared towards both musicans and programmers. 
 
 ### Build Status 
-Currently in process of implementing the function modes() to CircleFifths.
+(Currently in process of adding a chord mode function)
 Modes() will display which notes are in the scale/mode.
 
 ### Example
 1. Select a root key:
 'E'
-2. The mode option isn't available yet so just hit enter and skip
+The program will output the notes in the key of 'E'
+
+['E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'C', 'C#', 'D', 'D# ]
+
+2. Select a mode:
+major
+minor
+phrygian
+lydian
+mixolydian
+aeolian
+locrian
+chromatic
+wholetone
+diminished7thchord
+augmentedchord
+tritone
+
 3. The program will return all the notes in ascending order towards the higher octave which will look like this:
 
-    'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'C', 'C#', 'D', 'D# 
+ ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#']
     
-I modeled the program after the pitch constillation. 
+The program is modeled after the pitch constillation.
+The
 
                               E(0)
                     D#(11)             F(1)  
@@ -35,7 +53,9 @@ I modeled the program after the pitch constillation.
                     
                     B(7)               A(5)
                               A#(6)
- 
+
+
+
  
  
  
