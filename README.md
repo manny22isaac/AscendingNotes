@@ -37,8 +37,11 @@ tritone
 
  ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#']
     
-The program is modeled after the pitch constillation.
-The
+The program is heavily modeled after the pitch constillation.
+The notes in a key sequence operate as a clock. 
+Counterclockwise the notes go down a scale and the flats are sharps.
+Clockwise the notes go up a scale and the sharps are flats. (Essentially they're the same notes.)
+
 
                               E(0)
                     D#(11)             F(1)  
