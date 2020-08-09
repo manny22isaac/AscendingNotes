@@ -1,4 +1,4 @@
-### AscendingNotes 
+### CircleFifths 
 
 This simple program takes the root key of a 12 note scale and shifts the elements according to the root note. 
 
