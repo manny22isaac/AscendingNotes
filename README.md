@@ -9,8 +9,7 @@ Eventually, the project will be meant to generate complex melodies from python s
 This program is geared towards both musicans and programmers. 
 
 ### Build Status 
-(Currently in process of adding a chord mode function)
-Modes() will display which notes are in the scale/mode.
+Developing an extenal package to control puredata with python scripts
 
 ### Example
 1. Select a root key:
