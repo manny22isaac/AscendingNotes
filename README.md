@@ -9,7 +9,7 @@ Eventually, the project will be meant to generate complex melodies from python s
 This program is geared towards both musicans and programmers. 
 
 ### Build Status 
-Developing an extenal package to control puredata with python scripts
+Experimenting with MIDI and python.
 
 ### Example
 1. Select a root key:
