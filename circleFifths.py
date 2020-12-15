@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/python3
 #this program is still in progress. I've yet to add the rest of the program.
 notes = ('C', 'C#', 'D', 'D#',
              'E', 'F', 'F#', 'G', 'G#',
