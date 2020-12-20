@@ -19,8 +19,6 @@ scale = {'major':(0, 2, 4, 5, 7, 9, 11),
     'augmentedchord':(0, 4, 8),
     'tritone':(0, 6)}
 
-rootkey = input("Enter the root Note: ").upper()
-
 class CircleFifths:
     """docstring for CircleFifths."""
     def __init__(self, key):
@@ -53,5 +51,7 @@ def main():
     else:
         key_mode = [key[i] for i in mode]
         print(key_mode)
+        
+rootkey = input("Enter the root Note: ").upper()       
 main()
 
